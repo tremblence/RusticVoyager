@@ -2,22 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
+    <link>https://tremblence.github.io/RusticVoyager/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2018 20:34:19 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 Mar 2018 20:54:31 -0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tremblence.github.io/RusticVoyager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About Page</title>
+      <link>https://tremblence.github.io/RusticVoyager/about/</link>
+      <pubDate>Fri, 09 Mar 2018 20:54:31 -0800</pubDate>
+      
+      <guid>https://tremblence.github.io/RusticVoyager/about/</guid>
+      <description>About me! whats up homies</description>
+    </item>
+    
+    <item>
+      <title>Page Title</title>
+      <link>https://tremblence.github.io/RusticVoyager/tutorials/first/</link>
+      <pubDate>Fri, 09 Mar 2018 20:54:31 -0800</pubDate>
+      
+      <guid>https://tremblence.github.io/RusticVoyager/tutorials/first/</guid>
+      <description>Tutorials coming soon!</description>
+    </item>
+    
+    <item>
       <title>Hello with Hugo</title>
-      <link>http://example.org/post/hello/</link>
+      <link>https://tremblence.github.io/RusticVoyager/post/hello/</link>
       <pubDate>Sat, 10 Feb 2018 20:34:19 -0800</pubDate>
       
-      <guid>http://example.org/post/hello/</guid>
-      <description></description>
+      <guid>https://tremblence.github.io/RusticVoyager/post/hello/</guid>
+      <description>Whats up! this is my first post homies</description>
     </item>
     
   </channel>
