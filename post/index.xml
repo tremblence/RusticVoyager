@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on Rustic Voyager</title>
     <link>https://tremblence.github.io/RusticVoyager/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on Rustic Voyager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Feb 2018 20:34:19 -0800</lastBuildDate>
@@ -12,12 +12,14 @@
     
     
     <item>
-      <title>Hello with Hugo</title>
+      <title>Packing List</title>
       <link>https://tremblence.github.io/RusticVoyager/post/hello/</link>
       <pubDate>Sat, 10 Feb 2018 20:34:19 -0800</pubDate>
       
       <guid>https://tremblence.github.io/RusticVoyager/post/hello/</guid>
-      <description>Whats up! this is my first post homies</description>
+      <description>EEEvery time I travel, I overpack something
+Normally its a shirt I thought I&amp;rsquo;d wear but didn&amp;rsquo;t or even a pair of shoes or extra bar of soap
+On my most recent trip, I packed a medium school-sized backpack with enough stuff for 3 weeks in Costa Rica. I knew from past trips that on the coast in February, its very warm day and night and I wouldn&amp;rsquo;t wear a shirt much since most days I would be surfing or at a festival.</description>
     </item>
     
   </channel>

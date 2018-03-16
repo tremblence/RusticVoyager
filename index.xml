@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Rustic Voyager</title>
     <link>https://tremblence.github.io/RusticVoyager/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Rustic Voyager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Mar 2018 20:54:31 -0800</lastBuildDate>
@@ -12,12 +12,15 @@
     
     
     <item>
-      <title>About Page</title>
+      <title>About me</title>
       <link>https://tremblence.github.io/RusticVoyager/about/</link>
       <pubDate>Fri, 09 Mar 2018 20:54:31 -0800</pubDate>
       
       <guid>https://tremblence.github.io/RusticVoyager/about/</guid>
-      <description>About me! whats up homies</description>
+      <description>What up homies!
+My name is Justin, I&amp;rsquo;m from California.
+I realized at some point years ago I love to travel and explore, even if just to the other end of town on a longboard.
+Apart from a couple family trips, I hadn&amp;rsquo;t traveled much until I went to Costa Rica to study abroad in 2012. It was an amazing experience. I lived with a local Costa Rican family for 4 months and immersed myself into their culture.</description>
     </item>
     
     <item>
@@ -30,12 +33,14 @@
     </item>
     
     <item>
-      <title>Hello with Hugo</title>
+      <title>Packing List</title>
       <link>https://tremblence.github.io/RusticVoyager/post/hello/</link>
       <pubDate>Sat, 10 Feb 2018 20:34:19 -0800</pubDate>
       
       <guid>https://tremblence.github.io/RusticVoyager/post/hello/</guid>
-      <description>Whats up! this is my first post homies</description>
+      <description>EEEvery time I travel, I overpack something
+Normally its a shirt I thought I&amp;rsquo;d wear but didn&amp;rsquo;t or even a pair of shoes or extra bar of soap
+On my most recent trip, I packed a medium school-sized backpack with enough stuff for 3 weeks in Costa Rica. I knew from past trips that on the coast in February, its very warm day and night and I wouldn&amp;rsquo;t wear a shirt much since most days I would be surfing or at a festival.</description>
     </item>
     
   </channel>
