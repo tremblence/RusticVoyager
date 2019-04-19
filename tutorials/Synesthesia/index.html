@@ -179,27 +179,35 @@ It helps me remember words, names and numbers and I have always wanted to make a
 
 
 
-
-<script>
-
-var span = document.getElementById('phrase'),
-    text = span.innerHTML.split('').map(function(el) {
-        return '<span class="char-' + el.toLowerCase() + '">' + el + '</span>';
-    }).join('');
-  
-span.innerHTML = text;
-.char-e {
-    color: red;
-}
-<span id="phrase">Here are some words</span>
-
-$('blockquote').each(function () {
-    $(this).html($(this).html().replace(/(\$)/g, '<span style="color: #bb60d5;">$1</span>'));
-});
-
-</script>	
+				<div id="text"></div>
+				 
+				<script>
+				document.getElementById("text").innerHTML = "Text added by JavaScript code";
+				</script>
+				 
 
 
+
+								<script>
+
+								var span = document.getElementById('phrase'),
+								    text = span.innerHTML.split('').map(function(el) {
+								        return '<span class="char-' + el.toLowerCase() + '">' + el + '</span>';
+								    }).join('');
+								  
+								span.innerHTML = text;
+								.char-e {
+								    color: red;
+								}
+								<span id="phrase">Here are some words</span>
+
+								$('blockquote').each(function () {
+								    $(this).html($(this).html().replace(/(\$)/g, '<span style="color: #bb60d5;">$1</span>'));
+								});
+
+								</script>	
+
+					
 
 
 
