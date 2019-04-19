@@ -171,6 +171,27 @@ The letter "a" is green, "b" is red and so on
 <br>
 It helps me remember words, names and numbers and I have always wanted to make an app that illustrates what I see. So with a little Python Code I was able to make this!
 
+
+<script>
+
+var span = document.getElementById('phrase'),
+    text = span.innerHTML.split('').map(function(el) {
+        return '<span class="char-' + el.toLowerCase() + '">' + el + '</span>';
+    }).join('');
+  
+span.innerHTML = text;
+.char-e {
+    color: red;
+}
+<span id="phrase">Here are some words</span>
+
+$('blockquote').each(function () {
+    $(this).html($(this).html().replace(/(\$)/g, '<span style="color: #bb60d5;">$1</span>'));
+});
+
+</script>	
+
+
 									<br>  
 												<br>
 <p style="text-align:center">▂&nbsp;&nbsp;&nbsp;▃&nbsp;&nbsp;&nbsp;▄&nbsp;&nbsp;&nbsp;▅&nbsp;&nbsp;&nbsp;▄&nbsp;&nbsp;&nbsp;▃&nbsp;&nbsp;&nbsp;▂&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>      
