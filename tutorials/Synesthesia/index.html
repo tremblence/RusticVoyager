@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+
+
+
+
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
     <link rel="icon" type="image/png" href="img/palmtree.png"32x32">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -55,13 +61,26 @@
 
 									}</style>
     
-
-
-
-
-    
+  
 </head>
+
+
+
+
+
+
+
+
+
+
+
 <body>
+
+
+
+
+
+
 
 <nav class="navbar navbar-default navbar-fixed-top visible-xs">
 	<div class="container-fluid">
@@ -201,7 +220,7 @@ Over time I realized I have a form of Synesthesia where all numbers and letters 
 <br>
 The letter "a" is green, "b" is red and so on
 <br>
-It helps me remember words, names and numbers and I have always wanted to make an app that illustrates what I see. So with a little Python Code I was able to make this!
+It helps me remember words, names and numbers and I have always wanted to make an app that illustrates what I see. So with a little Javascript I was able to make this!
 
 <br>
 <br>
@@ -213,18 +232,6 @@ It helps me remember words, names and numbers and I have always wanted to make a
 
 
 
-
-
-				<p id="phrase">Toto is the best of all people in the world</p>
-
-				<script>
-
-				$(document).ready(function() {
-				   console.log( "ready!" );
-				   var text = $("#phrase").html().replace(/e/g, '<span class="red">e</span>');
-				    $("#phrase").html(text)
-				});
-				</script>
 
 
 
@@ -249,6 +256,7 @@ const html = jq.html().replace(new RegExp(\([${keys.join('')}])`, "g"), (match, 
 
 
 
+
 //Then, you can color-code your text by passing the following parameters to the colorCode function:
 
 colorCode($("#phrase"), {
@@ -264,7 +272,7 @@ l: "green"
 </script>
 
 
-
+<p id="phrase">This is an example</p>
 
 
 
