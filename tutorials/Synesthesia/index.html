@@ -173,6 +173,33 @@ It helps me remember words, names and numbers and I have always wanted to make a
 
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<p id="phrase">Toto is the best of all people in the world</p>
+
+<script>
+
+$(document).ready(function() {
+   console.log( "ready!" );
+   var text = $("#phrase").html().replace(/e/g, '<span class="red">e</span>');
+    $("#phrase").html(text)
+});
+</script>
+
 
 
 
@@ -215,18 +242,6 @@ It helps me remember words, names and numbers and I have always wanted to make a
 
 
 
-
-
-<p id="phrase">Toto is the best of all people in the world</p>
-
-<script>
-
-$(document).ready(function() {
-   console.log( "ready!" );
-   var text = $("#phrase").html().replace(/e/g, '<span class="red">e</span>');
-    $("#phrase").html(text)
-});
-</script>
 
 
 
