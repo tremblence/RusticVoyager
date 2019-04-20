@@ -279,18 +279,9 @@ It helps me remember words, names and numbers and I have always wanted to make a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<p id="thing">
+This is what I see in my head when I hear or think of a word. Its something I noticed over time and have tried to understand ever since. "u" is blue and "a" is green like plants. It helps me remember words, names and numbers.
+</p>
 
 
 
@@ -302,35 +293,36 @@ It helps me remember words, names and numbers and I have always wanted to make a
 
 
 <script>
-function colorCode(jq, obj){
+function colorCode(jq, obj) {
 
 const keys = Object.keys(obj);
-
-const html = jq.html().replace(new RegExp(\([${keys.join('')}])`, "g"), (match, p1) => {`
-
-	`return \`<span class=${obj[p1]}>${p1}</span>\``
-
-`})`
-
-`jq.html(html);`
+const html = jq.html().replace(new RegExp(`([${keys.join('')}])`, "g"), (match, p1) => {
+	return `<span class=${obj[p1]}>${p1}</span>`
+});
+console.log(html);
+jq.html(html);
 }
 
+colorCode($("#thing"), {
+	e: "red",
+  a: "blue",
+  l: "green"
+})
 
 
-
-//Then, you can color-code your text by passing the following parameters to the colorCode function:
-
-colorCode($("#phrase"), {
-
-e: "red" 
-
-a: "blue" 
-
-l: "green" 
-
-});
 
 </script>
+
+
+
+
+
+
+
+
+
+
+
 
 
 <p id="phrase">This is an example</p>
