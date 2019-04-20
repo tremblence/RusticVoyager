@@ -40,8 +40,18 @@
 
 									.red {
 									    color: red;
-			
-									    		
+
+									}
+
+									.green {
+										color: green
+
+									}
+
+									.blue {
+										color: blue
+
+									}    		
 
 									}</style>
     
@@ -257,7 +267,33 @@ $(document).ready(function() {
 
 
 
+<script>
+function colorCode(jq, obj){
 
+const keys = Object.keys(obj);
+
+const html = jq.html().replace(new RegExp(\([${keys.join('')}])`, "g"), (match, p1) => {`
+
+	`return \`<span class=${obj[p1]}>${p1}</span>\``
+
+`})`
+
+`jq.html(html);`
+}
+
+
+
+//Then, you can color-code your text by passing the following parameters to the colorCode function:
+
+colorCode($("#phrase"), {
+
+e: "red" //"e"s should have the color red
+
+a: "blue" //"a"s should be blue
+
+l: "green" //"l"s should be green...
+
+});
 
 
 
