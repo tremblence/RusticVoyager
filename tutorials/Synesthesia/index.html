@@ -307,6 +307,7 @@ A green hunting cap squeezed the top of the fleshy balloon of a head. The green 
 
 
 <script>
+$(document).ready(() => {
 function colorCode(jq, obj) {
 
 const keys = Object.keys(obj);
@@ -321,7 +322,9 @@ colorCode($("#thing"), {
 	e: "red",
   a: "blue",
   l: "green"
-})
+});
+});
+
 
 
 </script>
